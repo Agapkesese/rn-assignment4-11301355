@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Assign04",
-    "slug": "Assign04",
+    "name": "Assignment4",
+    "slug": "Assignment4",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,15 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+   "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/.ttf"]
+        }
+      ]
+    ]
     },
     "ios": {
       "supportsTablet": true
@@ -22,6 +30,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
